@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap" rel="stylesheet">
+    <title>CSSDesafio1-Formulário-HTML</title>
+</head>
+
+<body>
+    <form action="" method="POST" enctype="multipart/form-data">
+        <div class="container">
+            <h2 class="title-register">Cadastro!</h2>
+
+            <label>Nome
+                <div>
+                    <input type="text" name="nome" requeried>
+            </label>
+        </div>
+
+
+        <label>Email
+            <div>
+                <input type="email" name="email" requeried>
+        </label></div>
+
+
+        <label>Idade
+            <div>
+                <input type="number" name="idade" requeried min="12">
+        </label></div>
+
+
+        <label>Data de Nascimento
+            <div>
+                <input type="date" name="Data de Nascimento" requeried>
+        </label></div>
+
+
+        <label>Onde você possui conta
+            <div>
+                <input type="checkbox" name="opção" value="1" requeried>
+        </label>Instagram
+        <input type="checkbox" name="opção" value="2" requeried></label>Facebook
+        <input type="checkbox" name="opção" value="3" requeried></label>Youtube
+        </div>
+
+
+        <label>Sexo
+            <div>
+                <input type="radio" name="opção" value="1" requeried>
+        </label>Masculino
+        <input type="radio" name="opção" value="2" requeried></label>Feminino</div>
+
+
+        <label>Cor dos olhos
+            <input type="color" name="Cor dos olhos" requeried></label>
+
+
+        <label>Biografia
+            <textarea name="Biografia"></textarea></label>
+
+
+        <label>Foto do perfil
+            <input class="input-block" type="file" name="Foto do perfil" accept="image/*" requeried></label>
+
+
+        <label>Telefone
+            <input class="input-block" type="tel" name="Telefone"></label>
+
+
+        <label>Link do Perfil do Facebook
+            <input class="input-block" type="url" name="url" requeried></label>
+
+
+        <label>Senha
+            <input class="input-block" type="password" name="Senha" minlength="6" maxlength="8" requeried></label>
+
+
+        <button class="button-clear" type="reset">Limpar</button>
+
+        <button class="button-submit" type="submit" name="submit">Enviar dados</button>
+
+        </div>
+    </form>
+
+
+</body>
+
+</html>
